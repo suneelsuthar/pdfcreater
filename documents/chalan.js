@@ -223,13 +223,13 @@ return `
 
             </tr>
             <tr>
-              <td class="_td4">Father's Name:${fname}</td>
+              <td class="_td4">Father's Name:${fname}$</td>
             </tr>
             <tr>
-              <td class="_td4">CNIC/B-Form:${nic}</td>
+              <td class="_td4">CNIC/B-Form:${nic}$</td>
             </tr>
             <tr>
-              <td class="_td4">Course:</td>
+              <td class="_td4">Course:${course}</td>
             </tr>
           </table>
           <table class="_table4" border="1">
@@ -238,7 +238,7 @@ return `
                 Amount/Rs
               </td>
               <td class="_td6">
-                <span class="_amount">2000</span>
+              <span class="_amount">${fees}</span>
               </td>
             </tr>
 
@@ -313,17 +313,17 @@ return `
           </div>
           <table border="1" class="_table3">
             <tr>
-              <td class="_td4">Applicant Name:</td>
+              <td class="_td4">Applicant Name:${name}</td>
 
             </tr>
             <tr>
-              <td class="_td4">Father's Name:</td>
+              <td class="_td4">Father's Name:${fname}</td>
             </tr>
             <tr>
-              <td class="_td4">CNIC/B-Form:</td>
+              <td class="_td4">CNIC/B-Form:${nic}</td>
             </tr>
             <tr>
-              <td class="_td4">Course:</td>
+              <td class="_td4">Course:${course}</td>
             </tr>
           </table>
           <table class="_table4" border="1">
@@ -332,7 +332,7 @@ return `
                 Amount/Rs
               </td>
               <td class="_td6">
-                <span class="_amount">2000</span>
+              <span class="_amount">${fees}</span>
               </td>
             </tr>
 
@@ -407,14 +407,14 @@ return `
           </div>
           <table border="1" class="_table3">
             <tr>
-              <td class="_td4">Applicant Name:</td>
+              <td class="_td4">Applicant Name:${name}</td>
 
             </tr>
             <tr>
-              <td class="_td4">Father's Name:</td>
+              <td class="_td4">Father's Name:${fname}</td>
             </tr>
             <tr>
-              <td class="_td4">CNIC/B-Form:</td>
+              <td class="_td4">CNIC/B-Form:${nic}</td>
             </tr>
             <tr>
               <td class="_td4">Course:${course}</td>
