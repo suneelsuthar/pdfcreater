@@ -21,7 +21,7 @@ return `
             border-radius: 5px;
             padding: 3px;
             width: 350px;
-            height: 180px;
+            height: 190px;
             margin: auto;
         }
 
