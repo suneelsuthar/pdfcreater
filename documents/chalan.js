@@ -226,7 +226,7 @@ return `
               <td class="_td4">Father's Name:${fname}$</td>
             </tr>
             <tr>
-              <td class="_td4">CNIC/B-Form:${nic}$</td>
+              <td class="_td4">CNIC/B-Form:${nic}</td>
             </tr>
             <tr>
               <td class="_td4">Course:${course}</td>
