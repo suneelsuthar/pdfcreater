@@ -14,7 +14,7 @@ return `
         text-align: center;
       }
       ._table {
-        width: 100%;
+        width:300px
       }
       ._logo {
         width: 250px;
