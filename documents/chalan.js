@@ -75,9 +75,8 @@ return `
       font-size: 7px;
       text-align: left;
       margin-left: 2%;
-      margin-top: 10px;
       line-height: 13px;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
     }
     ._table3 {
       width: 96%;

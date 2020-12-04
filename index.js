@@ -28,7 +28,7 @@ app.post('/createchalan', (req, res) => {
     pdf.create(chalanTemplate(req.body), {
         format: 'A4',
         orientation: 'landscape',
-        margin: '1cm'
+        margin: '0cm'
       }).toFile('result.pdf', (err) => {
         if(err) {
             res.send(Promise.reject());
