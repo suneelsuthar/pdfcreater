@@ -52,7 +52,7 @@ return `
         th {
             text-align: left;
             color: purple;
-            font-size: 12px;
+            font-size: 10px;
             margin-left: 10px;
         }
 
@@ -147,7 +147,7 @@ return `
                         <td>
                             <div class="_User_Profile">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png"
-                                    class="_profile_picture" alt="Profile Picture" />
+                                    class="_profile_picture" alt="Profile Picture" tyle="margin-left: -20px;"/>
                             </div>
                         </td>
                         <td>
@@ -165,7 +165,7 @@ return `
                                     <td>03322404609</td>
                                 </tr>
                                 <tr>
-                                    <td>Valid Up To </td>
+                                    <td>Valid</td>
                                     <td></td>
                                     <td></td>
                                     <td>01/10/2021</td>
