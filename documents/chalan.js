@@ -34,7 +34,7 @@ return `
       width: 20%;
     }
     td {
-      font-size: 12px;
+      font-size: 8px;
       padding-left: 8px !important;
     }
     ._td1 {
@@ -169,11 +169,11 @@ return `
           <p class="_slipName">Iskillers Copy</p>
           <table class="_table1">
             <tr>
-              <td class="_first_tb_td">Branch code ______________________</td>
-              <td class="_first_tb_td"> Branch code ______________________</td>
+              <td class="_first_tb_td">Branch code  _______________</td>
+              <td class="_first_tb_td"> Branch code  _______________</td>
             </tr>
             <tr>
-              <td class="_first_tb_td" colSpan="2">Branch Name__________________________________________________________</td>
+              <td class="_first_tb_td" colSpan="2">Branch Name_______________________________</td>
             </tr>
 
           </table>
@@ -221,7 +221,7 @@ return `
               <td class="_td4">Course:</td>
             </tr>
           </table>
-          <table class="_table4">
+          <table class="_table4" border="1">
             <tr>
               <td class="_td5">
                 Amount/Rs
@@ -243,10 +243,10 @@ return `
           </table>
           <table class="_table5">
             <tr>
-              <td>_________________</td>
-              <td>_________________</td>
-              <td>_________________</td>
-            </tr>
+              <td> _______________</td>
+              <td> _______________</td>
+              <td> _______________</td>
+            </tr> 
             <tr>
               <td class="_signature_td">Applicant Signature</td>
               <td class="_signature_td">Cashier</td>
@@ -263,11 +263,11 @@ return `
           <p class="_slipName">Iskillers Copy</p>
           <table class="_table1">
             <tr>
-              <td class="_first_tb_td">Branch code ______________________</td>
-              <td class="_first_tb_td"> Branch code ______________________</td>
+              <td class="_first_tb_td">Branch code  _______________</td>
+              <td class="_first_tb_td"> Branch code  _______________</td>
             </tr>
             <tr>
-              <td class="_first_tb_td" colSpan="2">Branch Name__________________________________________________________</td>
+              <td class="_first_tb_td" colSpan="2">Branch Name_______________________________</td>
             </tr>
 
           </table>
@@ -315,7 +315,7 @@ return `
               <td class="_td4">Course:</td>
             </tr>
           </table>
-          <table class="_table4">
+          <table class="_table4" border="1">
             <tr>
               <td class="_td5">
                 Amount/Rs
@@ -337,9 +337,9 @@ return `
           </table>
           <table class="_table5">
             <tr>
-              <td>_________________</td>
-              <td>_________________</td>
-              <td>_________________</td>
+              <td> _______________</td>
+              <td> _______________</td>
+              <td> _______________</td>
             </tr>
             <tr>
               <td class="_signature_td">Applicant Signature</td>
@@ -357,11 +357,11 @@ return `
           <p class="_slipName">Iskillers Copy</p>
           <table class="_table1">
             <tr>
-              <td class="_first_tb_td">Branch code ______________________</td>
-              <td class="_first_tb_td"> Branch code ______________________</td>
+              <td class="_first_tb_td">Branch code _______________</td>
+              <td class="_first_tb_td"> Branch code _______________</td>
             </tr>
             <tr>
-              <td class="_first_tb_td" colSpan="2">Branch Name__________________________________________________________</td>
+              <td class="_first_tb_td" colSpan="2">Branch Name_______________________________</td>
             </tr>
 
           </table>
@@ -409,7 +409,7 @@ return `
               <td class="_td4">Course:</td>
             </tr>
           </table>
-          <table class="_table4">
+          <table class="_table4" border="1">
             <tr>
               <td class="_td5">
                 Amount/Rs
@@ -431,9 +431,9 @@ return `
           </table>
           <table class="_table5">
             <tr>
-              <td>_________________</td>
-              <td>_________________</td>
-              <td>_________________</td>
+              <td> ________</td>
+              <td> ________</td>
+              <td> ________</td>
             </tr>
             <tr>
               <td class="_signature_td">Applicant Signature</td>
