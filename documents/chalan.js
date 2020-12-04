@@ -52,6 +52,7 @@ return `
     }
     ._bankImage {
       height: 30px;
+      margin-top:5px
     }
     ._tr1 {
       border: 1px solid black;
@@ -163,7 +164,7 @@ return `
       padding: 0px !important;
       margin: 0px !important;
       text-align:center;
-      font-size:6
+      font-size:6px
     }
     </style>
   </head>
