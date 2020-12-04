@@ -9,18 +9,15 @@ return `
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        ._Main_Div {
-            width: 430px;
-            align-items: center;
-            text-align: center;
-            margin: auto;
-        }
+      
 
         ._Id_Card_Main {
             border: 2px solid purple;
             border-radius: 5px;
             padding: 3px;
             width: 350px;
+            height: 230px;
+            margin: auto;
         }
 
         ._iskillers_logo {
