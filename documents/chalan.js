@@ -18,7 +18,7 @@ return `
       width: 100%;
     }
     ._logo {
-      width: 250px;
+      width: 230px;
       margin: auto;
     }
     ._table1 {
@@ -34,7 +34,7 @@ return `
       width: 20%;
     }
     td {
-      font-size: 8px;
+      font-size: 7px;
       padding-left: 8px !important;
     }
     ._td1 {
@@ -55,20 +55,24 @@ return `
     }
     ._tr1 {
       border: 1px solid black;
+      font-size: 7px;
+
     }
     ._td2 {
       border: 1px solid black;
       padding: 1%;
+      font-size: 7px;
+
     }
     
     ._banKNoteTxt {
-      font-size: 10px;
+      font-size: 6px;
       margin-left: 8px;
       text-align: left;
     }
     ._noteDiv {
       color: red;
-      font-size: 10px;
+      font-size: 6px;
       text-align: left;
       margin-left: 2%;
       margin-top: 10px;
@@ -91,14 +95,14 @@ return `
       margin: auto;
       margin-top: 10px;
     }
-    ._td5 {
-      font-size: 12px;
+    ._td5 {     
+      font-size: 7px;
     }
     ._td6 {
-      font-size: 12px;
+      font-size: 7px;
     }
     ._amount {
-      font-weight: bold;
+      font-weight: 300;
     }
     ._slipName {
       text-align: center;
@@ -106,7 +110,7 @@ return `
       color: white;
       width: 40%;
       padding: 2px;
-      font-size: 14px;
+      font-size: 12px;
       margin: auto;
       margin-bottom: 10px;
     }
@@ -117,7 +121,9 @@ return `
     }
     ._td7{
       border-bottom: 1px solid black;
-      width: 25%; 
+      width: 25%;
+      font-size: 7px;
+ 
     }
     
     @media only screen and (max-width: 700px) {
