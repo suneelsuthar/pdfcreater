@@ -23,8 +23,13 @@ app.post('/create-pdf', (req, res) => {
     });
 });
 // CAHLAN COPY TEMPLATE
+// pdf.create(htm, options).toFile('./pdfname.pdf', function(err, res) {
 app.post('/createchalan', (req, res) => {
-    pdf.create(chalanTemplate(req.body), {}).toFile('result.pdf', (err) => {
+    pdf.create(chalanTemplate(req.body), {
+        format: 'A4',
+        orientation: 'landscape',
+        margin: '1cm'
+      }).toFile('result.pdf', (err) => {
         if(err) {
             res.send(Promise.reject());
         }
@@ -37,6 +42,8 @@ app.post('/createchalan', (req, res) => {
 app.get('/fetch-pdf', (req, res) => {
     res.sendFile(`${__dirname}/result.pdf`)
 })
+
+
 
 // GET CHALAN COPY PDF
 app.get('/chalan-pdf', (req, res) => {
