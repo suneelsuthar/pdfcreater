@@ -14,7 +14,6 @@ return `
             align-items: center;
             text-align: center;
             margin:auto;
-            height:270px !important
         }
 
         ._Id_Card_Main {
