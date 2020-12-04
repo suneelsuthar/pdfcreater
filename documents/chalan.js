@@ -162,7 +162,8 @@ return `
     ._signature_td{
       padding: 0px !important;
       margin: 0px !important;
-      text-align:center
+      text-align:center;
+      font-size:8
     }
     </style>
   </head>
@@ -178,11 +179,11 @@ return `
           <p class="_slipName">Iskillers Copy</p>
           <table class="_table1">
             <tr>
-              <td class="_first_tb_td">Branch code  _______________</td>
-              <td class="_first_tb_td"> Branch code  _______________</td>
+              <td class="_first_tb_td">Branch code ____________</td>
+              <td class="_first_tb_td"> Branch code ____________</td>
             </tr>
             <tr>
-              <td class="_first_tb_td" colSpan="2">Branch Name___________________________________________</td>
+              <td class="_first_tb_td" colSpan="2">Branch Name_____________________________________</td>
             </tr>
 
           </table>
@@ -272,11 +273,11 @@ return `
           <p class="_slipName">Iskillers Copy</p>
           <table class="_table1">
             <tr>
-              <td class="_first_tb_td">Branch code  _______________</td>
-              <td class="_first_tb_td"> Branch code  _______________</td>
+              <td class="_first_tb_td">Branch code ____________</td>
+              <td class="_first_tb_td"> Branch code ____________</td>
             </tr>
             <tr>
-              <td class="_first_tb_td" colSpan="2">Branch Name___________________________________________</td>
+              <td class="_first_tb_td" colSpan="2">Branch Name_____________________________________</td>
             </tr>
 
           </table>
@@ -366,11 +367,11 @@ return `
           <p class="_slipName">Iskillers Copy</p>
           <table class="_table1">
             <tr>
-              <td class="_first_tb_td">Branch code _______________</td>
-              <td class="_first_tb_td"> Branch code _______________</td>
+              <td class="_first_tb_td">Branch code ____________</td>
+              <td class="_first_tb_td"> Branch code ____________</td>
             </tr>
             <tr>
-              <td class="_first_tb_td" colSpan="2">Branch Name___________________________________________</td>
+              <td class="_first_tb_td" colSpan="2">Branch Name_____________________________________</td>
             </tr>
 
           </table>
