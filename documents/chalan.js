@@ -1,4 +1,4 @@
-module.exports = ({ name, price1, price2, receiptId }) => {
+module.exports = ({ name, fname, nic, course,fees }) => {
     const today = new Date();
 return `
 <!DOCTYPE html>
@@ -219,14 +219,14 @@ return `
           </div>
           <table border="1" class="_table3">
             <tr>
-              <td class="_td4">Applicant Name:</td>
+              <td class="_td4">Applicant Name:${name}</td>
 
             </tr>
             <tr>
-              <td class="_td4">Father's Name:</td>
+              <td class="_td4">Father's Name:${fname}</td>
             </tr>
             <tr>
-              <td class="_td4">CNIC/B-Form:</td>
+              <td class="_td4">CNIC/B-Form:${nic}</td>
             </tr>
             <tr>
               <td class="_td4">Course:</td>
@@ -417,7 +417,7 @@ return `
               <td class="_td4">CNIC/B-Form:</td>
             </tr>
             <tr>
-              <td class="_td4">Course:</td>
+              <td class="_td4">Course:${course}</td>
             </tr>
           </table>
           <table class="_table4" border="1">
@@ -426,17 +426,19 @@ return `
                 Amount/Rs
               </td>
               <td class="_td6">
-                <span class="_amount">2000</span>
+                <span class="_amount">${fees}</span>
               </td>
             </tr>
 
             <tr>
               <td class="_td5">
-                <span>Amount in words/Rs: </span>
+                <span>Amount in words/Rs:Five </span>
 
               </td>
               <td class="_td6">
-                <span class="_amount">Two Thousand Rupees Only/=</span>
+                <span class="_amount">
+                Two Thousand Rupees Only/=
+                </span>
               </td>
             </tr>
           </table>
