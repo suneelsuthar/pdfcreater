@@ -19,12 +19,12 @@ return `
         ._Id_Card_Main {
             border: 2px solid purple;
             border-radius: 5px;
-            padding: 10px;
+            padding: 3px;
         }
 
         ._iskillers_logo {
-            width: 170px;
-            height: 60px;
+            width: 150px;
+            height: 50px;
         }
 
         ._iskillers_website_link {
@@ -37,8 +37,8 @@ return `
             font-weight: bold;
             letter-spacing: 5px;
             text-align: center;
-            padding: 1px;
-            font-size: 15px;
+            padding: 3px;
+            font-size: 12px;
         }
 
         ._User_Profile {
@@ -53,7 +53,6 @@ return `
         td,
         th {
             text-align: left;
-            padding: 3px;
             font-weight: bold !important;
             color: purple;
             font-size: 12px;
@@ -62,8 +61,8 @@ return `
 
         ._profile_picture {
             border-radius: 10px;
-            width: 100px;
-            height: 100px;
+            width: 90px;
+            height: 90px;
         }
 
         ._Signature {
@@ -73,14 +72,16 @@ return `
 
         ._Signature_text {
             font-weight: italic;
-            font-size: 20px;
+            font-size: 12px;
             justify-content: right;
             color: purple;
+            font-weight: bold;
+            margin-top: 20px;
 
         }
 
         /* responsive */
-        @media only screen and (max-width: 600px) {
+        /* @media only screen and (max-width: 600px) {
             ._Main_Div {
                 width: 430px;
                 margin: auto;
@@ -104,9 +105,9 @@ return `
             ._Signature_text {
                 font-size: 15px;
                 margin-bottom: -10px;
-            }
+            } */
 
-        }
+        /* } */
     </style>
 </head>
 
