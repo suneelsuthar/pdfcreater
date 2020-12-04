@@ -248,7 +248,7 @@ return `
 
               </td>
               <td class="_td6">
-                <span class="_amount">Two Thousand Rupees Only/=</span>
+                <span class="_amount">Five thousands only</span>
               </td>
             </tr>
           </table>
@@ -342,7 +342,7 @@ return `
 
               </td>
               <td class="_td6">
-                <span class="_amount">Two Thousand Rupees Only/=</span>
+                <span class="_amount">Five thousands only</span>
               </td>
             </tr>
           </table>
@@ -437,7 +437,7 @@ return `
               </td>
               <td class="_td6">
                 <span class="_amount">
-                Two Thousand Rupees Only/=
+                Five thousands only
                 </span>
               </td>
             </tr>
