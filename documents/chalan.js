@@ -117,7 +117,7 @@ return `
     ._table5{
         width: 96%;
         margin: auto;
-        margin-top: 50px;
+        margin-top: 20px;
     }
     ._td7{
       border-bottom: 1px solid black;
