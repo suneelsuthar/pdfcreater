@@ -139,18 +139,14 @@ return `
     
     
     ._card{
-      /* border:1px solid; */
-      width: 370px;
+      width: 250px;
       padding: 4px;
     }
     ._heading{
       text-align: center;
       font-weight: bold;
-      margin-top: -10px;
     }
-    td, th {
-      /* border: 1px solid; */
-    }
+  
     ._bank_name{
       font-weight: bold;
     }
@@ -163,7 +159,7 @@ return `
   </head>
   <body>
   <div class="container">
-  <table border="1" class="_table">
+  <table class="_table">
     <tr>
       <td style={{borderRight:"2px dotted grey"}}>
         <div class="_card">
@@ -178,7 +174,6 @@ return `
             </tr>
             <tr>
               <td class="_first_tb_td" colSpan="2">Branch Name__________________________________________________________</td>
-              {/* <td></td> */}
             </tr>
 
           </table>
@@ -226,7 +221,7 @@ return `
               <td class="_td4">Course:</td>
             </tr>
           </table>
-          <table border="1" class="_table4">
+          <table class="_table4">
             <tr>
               <td class="_td5">
                 Amount/Rs
@@ -260,7 +255,6 @@ return `
           </table>
         </div>
       </td>
-      {/* BANK COPY  */}
       <td style={{borderRight:"2px dotted grey"}}>
         <div class="_card">
           <div class="_img_wrapper">
@@ -274,7 +268,6 @@ return `
             </tr>
             <tr>
               <td class="_first_tb_td" colSpan="2">Branch Name__________________________________________________________</td>
-              {/* <td></td> */}
             </tr>
 
           </table>
@@ -322,7 +315,7 @@ return `
               <td class="_td4">Course:</td>
             </tr>
           </table>
-          <table border="1" class="_table4">
+          <table class="_table4">
             <tr>
               <td class="_td5">
                 Amount/Rs
@@ -356,7 +349,6 @@ return `
           </table>
         </div>
       </td>
-      {/* STUDENT COPY */}
       <td>
         <div class="_card">
           <div class="_img_wrapper">
@@ -370,7 +362,6 @@ return `
             </tr>
             <tr>
               <td class="_first_tb_td" colSpan="2">Branch Name__________________________________________________________</td>
-              {/* <td></td> */}
             </tr>
 
           </table>
@@ -418,7 +409,7 @@ return `
               <td class="_td4">Course:</td>
             </tr>
           </table>
-          <table border="1" class="_table4">
+          <table class="_table4">
             <tr>
               <td class="_td5">
                 Amount/Rs
