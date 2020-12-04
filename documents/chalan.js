@@ -163,7 +163,7 @@ return `
       padding: 0px !important;
       margin: 0px !important;
       text-align:center;
-      font-size:8
+      font-size:6
     }
     </style>
   </head>
