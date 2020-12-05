@@ -78,11 +78,11 @@ module.exports = ({ name, fname, course, rollNumber }) => {
 
         ._Signature_text {
             font-weight: italic;
-            font-size: 12px;
+            font-size: 10px;
             justify-content: right;
             color: purple;
             font-weight: bold;
-            margin-top: 20px;
+            margin-top: 25px;
             text-align:center
 
         }
@@ -134,7 +134,7 @@ module.exports = ({ name, fname, course, rollNumber }) => {
                     <td>
                         <div class="_User_Profile">
                             <img src="https://pbs.twimg.com/media/EGbuG9MWwAAeT-v.jpg" class="_profile_picture"
-                                alt="Profile Picture" style="margin-left: 70px;"  />
+                                alt="Profile Picture" style="margin-left: 50px;marginn-top:10px"  />
                         </div>
                     </td>
                 </tr>
