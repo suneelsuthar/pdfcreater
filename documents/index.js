@@ -1,6 +1,6 @@
-module.exports = ({ name, price1, price2, receiptId }) => {
+module.exports = ({ name, fname, course, rollNumber }) => {
     const today = new Date();
-return `
+    return `
 <!DOCTYPE html>
 <html lang="en">
 
@@ -83,6 +83,7 @@ return `
             color: purple;
             font-weight: bold;
             margin-top: 20px;
+            text-align:center
 
         }
        ._User_Profile{
@@ -106,25 +107,27 @@ return `
                                     <td>Full Name </td>
                                     <td></td>
                                     <td></td>
-                                    <td>Hishmat Rai</td>
+                                    <td>${name}</td>
                                 </tr>
+
+                                <tr>
+                                <td>Father's Name </td>
+                                <td></td>
+                                <td></td>
+                                <td>${fname}</td>
+                            </tr>
                                 <tr>
                                     <td>Roll No </td>
                                     <td></td>
                                     <td></td>
-                                    <td>9177</td>
+                                    <td>${rollNumber}</td>
                                 </tr>
-                                <tr>
-                                    <td>Batch </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td>Batch 01</td>
-                                </tr>
+                               
                                 <tr>
                                     <td>Cource </td>
                                     <td></td>
                                     <td></td>
-                                    <td>Web Development</td>
+                                    <td>${course}</td>
                                 </tr>
                             </table>
                     </td>
@@ -140,8 +143,6 @@ return `
             <div class="_iskillers_website_link">
                 <p class="_iskilleres_link">www.iskillers.com</p>
             </div>
-
-
         </div>
         <br />
         <div class="_Id_Card_Main">
@@ -152,46 +153,14 @@ return `
             </div>
 
             <div class="_User_Data_Main">
-                <table>
-                    <tr>
-                        <td>
-                            <div class="_User_Profile">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png"
-                                    class="_profile_picture _qrscanner" alt="Profile Picture" style="margin-left: 30px;" />
-                            </div>
-                        </td>
-                        <td>
-                            <table >
-                                <tr style="padding-left: 50px">
-                                    <td>Email </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td>hishmatrai@gmail.com</td>
-                                </tr>
-                                <tr>
-                                    <td>Mob Num </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td>03322404609</td>
-                                </tr>
-                                <tr>
-                                    <td>Valid Up To </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td>01/10/2021</td>
-                                </tr>
-                            </table>
+
+                            <p style="text-align:center">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png"
+                            class="_profile_picture _qrscanner" alt="Profile Picture" />
+                            </p>
                             <div class="_Signature">
                                 <div class="_Signature_text"> Authorized Signature</div>
                             </div>
-            </div>
-            </td>
-            </tr>
-            </table>
-
-
-
-
             <div class="_iskillers_website_link">
                 <p class="_iskilleres_link">www.iskillers.com</p>
             </div>
