@@ -106,26 +106,22 @@ module.exports = ({ name, fname, course, rollNumber }) => {
                                 <tr>
                                     <td>Full Name </td>
                                     <td></td>
-                                    <td></td>
                                     <td>${name}</td>
                                 </tr>
 
                                 <tr>
                                 <td>Father's Name </td>
                                 <td></td>
-                                <td></td>
                                 <td>${fname}</td>
                             </tr>
                                 <tr>
                                     <td>Roll No </td>
-                                    <td></td>
                                     <td></td>
                                     <td>${rollNumber}</td>
                                 </tr>
                                
                                 <tr>
                                     <td>Cource </td>
-                                    <td></td>
                                     <td></td>
                                     <td>${course}</td>
                                 </tr>
