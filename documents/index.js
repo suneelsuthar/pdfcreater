@@ -127,10 +127,7 @@ module.exports = ({ name, fname, course, rollNumber }) => {
                                 </tr>
                             </table>
                     </td>
-                    <td>
-                            <img src="https://pbs.twimg.com/media/EGbuG9MWwAAeT-v.jpg" class="_profile_picture"
-                                alt="Profile Picture" style="margin-left: 50px;marginn-top:10px"  />
-                    </td>
+                  
                 </tr>
             </table>
 
