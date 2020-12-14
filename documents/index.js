@@ -77,12 +77,8 @@ module.exports = ({ name, fname, course, rollNumber }) => {
         }
 
         ._Signature_text {
-            font-weight: italic;
-            font-size: 10px;
             justify-content: right;
             color: purple;
-            font-weight: bold;
-            margin-top: 5px;
             text-align:center;
             font-size:10px
         }
