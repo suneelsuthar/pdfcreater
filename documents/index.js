@@ -38,7 +38,6 @@ module.exports = ({ name, fname, course, rollNumber }) => {
         ._iskillers_website_link {
             background-color: purple;
             border-radius: 5px;
-            margin-top:-3px;
         }
 
         ._iskilleres_link {
@@ -81,7 +80,8 @@ module.exports = ({ name, fname, course, rollNumber }) => {
             justify-content: right;
             color: purple;
             text-align:center;
-            font-size:6px
+            font-size:6px;
+            margin-top:10px;
         }
        ._User_Profile{
            width: 100%;
