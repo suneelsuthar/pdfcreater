@@ -67,8 +67,8 @@ module.exports = ({ name, fname, course, rollNumber }) => {
 
         ._profile_picture {
             border-radius: 10px;
-            width: 90px;
-            height: 90px;
+            width: 80px;
+            height: 80px;
         }
 
         ._Signature {
@@ -127,7 +127,11 @@ module.exports = ({ name, fname, course, rollNumber }) => {
                                 </tr>
                             </table>
                     </td>
-                  
+                    <td>
+                            <img src="https://1.bp.blogspot.com/-8zD51KOc_Ls/XmSZZ47xsNI/AAAAAAAAPS0/m4yP8Kr7VY4c06N3cH9aLbKbuqwXqF5QQCLcBGAsYHQ/s1600/sweet%2Bdp%2Bfor%2Bwhatsapp%2Bprofile%2B%25281%2529.gif" class="_profile_picture"
+                                alt="Profile Picture" style="marginn-top:10px"  />
+                                <div class="_Signature_text"> Authorized Signature</div>
+                    </td>
                 </tr>
             </table>
 
@@ -141,13 +145,12 @@ module.exports = ({ name, fname, course, rollNumber }) => {
                 class="_iskillers_logo" />
 
             <div class="_User_Data_Main">
-
                             <p style="text-align:center">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png"
                             class="_profile_picture _qrscanner" alt="Profile Picture" />
                             </p>
                             <div class="_Signature">
-                                <div class="_Signature_text"> Authorized Signature</div>
+                            
         </div>
 </body>
 
