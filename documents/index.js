@@ -26,7 +26,7 @@ module.exports = ({ name, fname, course, rollNumber }) => {
         }
 
         ._iskillers_logo {
-            width: 150px;
+            width: 200px;
             height: 50px;
             margin-top: -10px;
             margin-bottom: -10px;
