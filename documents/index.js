@@ -47,7 +47,7 @@ module.exports = ({ name, fname, course, rollNumber }) => {
             letter-spacing: 5px;
             text-align: center;
             padding: 3px;
-            font-size: 12px;
+            font-size: 8px;
             z-index: 10;
             position: relative;
         }
@@ -81,7 +81,7 @@ module.exports = ({ name, fname, course, rollNumber }) => {
             justify-content: right;
             color: purple;
             text-align:center;
-            font-size:8px
+            font-size:6px
         }
        ._User_Profile{
            width: 100%;
