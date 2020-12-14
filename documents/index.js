@@ -82,9 +82,9 @@ module.exports = ({ name, fname, course, rollNumber }) => {
             justify-content: right;
             color: purple;
             font-weight: bold;
-            margin-top: 25px;
-            text-align:center
-
+            margin-top: 5px;
+            text-align:center;
+            font-size:10px
         }
        ._User_Profile{
            width: 100%;
