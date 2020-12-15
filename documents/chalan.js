@@ -18,7 +18,7 @@ return `
       width: 100%;
     }
     ._logo {
-      width: 230px;
+      width: 170px;
       margin: auto;
     }
     ._table1 {
