@@ -150,11 +150,22 @@ module.exports = ({ name, fname, course, rollNumber,qrcode }) => {
 
             <div class="_User_Data_Main">
                             <p style="text-align:center">
-                            ${qrcode}
+
+                            <!-- Get a Placeholder image initially, 
+                       this will change according to the 
+                       data entered later -->
+                            <img src="https://chart.googleapis.com/chart?cht=qr&chl=Beerbal+kumar&chs=160x160&chld=L|0"
+                                class="qr-code img-thumbnail img-responsive" id="img"/>
                             </p>
                             <div class="_Signature">        
         </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.js">
+</script>
+
+<script>
+document.getElementById("img").setAttribute("src", "https://chart.googleapis.com/chart?cht=qr&chl="+"beerbal"+"&chs=160x160&chld=L|0")
+</script>
 
 </html>
     `;
