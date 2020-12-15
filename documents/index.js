@@ -1,4 +1,4 @@
-module.exports = ({ name, fname, course, rollNumber,qrcode }) => {
+module.exports = ({ name, fname, course, rollNumber }) => {
     const today = new Date();
     return `
 <!DOCTYPE html>
