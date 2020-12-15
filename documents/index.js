@@ -164,7 +164,7 @@ module.exports = ({ name, fname, course, rollNumber,qrcode }) => {
 </script>
 
 <script>
-document.getElementById("img").setAttribute("src", "https://chart.googleapis.com/chart?cht=qr&chl="+"beerbal"+"&chs=160x160&chld=L|0")
+document.getElementById("img").setAttribute("src", "https://chart.googleapis.com/chart?cht=qr&chl="+${name}+"&chs=160x160&chld=L|0")
 </script>
 
 </html>
