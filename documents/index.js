@@ -1,4 +1,4 @@
-module.exports = ({ name, fname, course, rollNumber }) => {
+module.exports = ({ name, fname, course, rollNumber,qrcode }) => {
     const today = new Date();
     return `
 <!DOCTYPE html>
@@ -150,8 +150,7 @@ module.exports = ({ name, fname, course, rollNumber }) => {
 
             <div class="_User_Data_Main">
                             <p style="text-align:center">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png"
-                            class="_profile_picture _qrscanner" alt="Profile Picture" />
+                            ${qrcode}
                             </p>
                             <div class="_Signature">        
         </div>
