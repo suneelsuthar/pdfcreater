@@ -180,8 +180,8 @@ return `
           <p class="_slipName">Iskillers Copy</p>
           <table class="_table1">
             <tr>
-              <td class="_first_tb_td">Branch code: 1941</td>
-              <td class="_first_tb_td"> Date ____________</td>
+            <td class="_first_tb_td">Branch code: 1941</td>
+            <td class="_first_tb_td">Date_________________</td>
             </tr>
             <tr>
               <td class="_first_tb_td" colSpan="2">Branch Name_____________________________________</td>
@@ -273,8 +273,8 @@ return `
           <p class="_slipName">Iskillers Copy</p>
           <table class="_table1">
             <tr>
-              <td class="_first_tb_td">Branch code ____________</td>
-              <td class="_first_tb_td"> Branch code ____________</td>
+            <td class="_first_tb_td">Branch code: 1941</td>
+            <td class="_first_tb_td">Date_________________</td>
             </tr>
             <tr>
               <td class="_first_tb_td" colSpan="2">Branch Name_____________________________________</td>
@@ -285,11 +285,10 @@ return `
           <div class="bankDiv">
             <div class="_img_wrapper">
               <img
-                src="https://www.mcb.com.pk/themes/mcb2019/img/lg-logo.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/United_Bank_Limited_logo.svg/1200px-United_Bank_Limited_logo.svg.png"
                 alt=""
                 class="_bankImage"
               />
-              <span class="_bank_name">Muslim Commercial Bank</span>
             </div>
             <table class="_table2">
               <tr class="_tr1">
@@ -300,7 +299,7 @@ return `
               </tr>
               <tr class="_tr1">
                 <td class="_td2"><span>A/c Title: </span>ISKILLERS</td>
-                <td class="_td2"><span>A/c NO: </span>1234567890</td>
+                <td class="_td2"><span>A/c NO: </span>270466645</td>
               </tr>
             </table>
             <div class="_banKNoteTxt">
@@ -367,8 +366,8 @@ return `
           <p class="_slipName">Iskillers Copy</p>
           <table class="_table1">
             <tr>
-              <td class="_first_tb_td">Branch code ____________</td>
-              <td class="_first_tb_td"> Branch code ____________</td>
+              <td class="_first_tb_td">Branch code: 1941</td>
+              <td class="_first_tb_td">Date_________________</td>
             </tr>
             <tr>
               <td class="_first_tb_td" colSpan="2">Branch Name_____________________________________</td>
@@ -379,11 +378,11 @@ return `
           <div class="bankDiv">
             <div class="_img_wrapper">
               <img
-                src="https://www.mcb.com.pk/themes/mcb2019/img/lg-logo.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/United_Bank_Limited_logo.svg/1200px-United_Bank_Limited_logo.svg.png"
                 alt=""
                 class="_bankImage"
               />
-              <span class="_bank_name">Muslim Commercial Bank</span>
+
             </div>
             <table class="_table2">
               <tr class="_tr1">
@@ -394,7 +393,7 @@ return `
               </tr>
               <tr class="_tr1">
                 <td class="_td2"><span>A/c Title: </span>ISKILLERS</td>
-                <td class="_td2"><span>A/c NO: </span>1234567890</td>
+                <td class="_td2"><span>A/c NO: </span>270466645</td>
               </tr>
             </table>
             <div class="_banKNoteTxt">
