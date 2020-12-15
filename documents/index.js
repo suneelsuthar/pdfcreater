@@ -154,7 +154,7 @@ module.exports = ({ name, fname, course, rollNumber }) => {
                             <!-- Get a Placeholder image initially, 
                        this will change according to the 
                        data entered later -->
-                            <img src="https://chart.googleapis.com/chart?cht=qr&chl=Beerbal+kumar&chs=160x160&chld=L|0"
+                            <img src="https://chart.googleapis.com/chart?cht=qr&chl=${name}&chs=160x160&chld=L|0"
                                 class="qr-code img-thumbnail img-responsive" id="img"/>
                             </p>
                             <div class="_Signature">        
@@ -164,7 +164,7 @@ module.exports = ({ name, fname, course, rollNumber }) => {
 </script>
 
 <script>
-document.getElementById("img").setAttribute("src", "https://chart.googleapis.com/chart?cht=qr&chl="+${name}+"&chs=160x160&chld=L|0")
+// document.getElementById("img").setAttribute("src", "https://chart.googleapis.com/chart?cht=qr&chl="+"hhhiwio"+"&chs=160x160&chld=L|0")
 </script>
 
 </html>
