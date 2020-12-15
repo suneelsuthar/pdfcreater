@@ -18,7 +18,7 @@ return `
       width: 100%;
     }
     ._logo {
-      width: 170px;
+      width: 120px;
       margin: auto;
     }
     ._table1 {
@@ -218,8 +218,7 @@ return `
           </div>
           <table border="1" class="_table3">
             <tr>
-              <td class="_td4">Applicant Name:${name}</td>
-
+            <td class="_td4">Applicant Name:${name}</td>
             </tr>
             <tr>
               <td class="_td4">Father's Name:${fname}$</td>
