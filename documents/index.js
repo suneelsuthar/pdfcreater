@@ -64,9 +64,9 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
         th {
             text-align: left;
             color: purple;
-            font-size: 10px;
-            margin-left: 10px;
-            padding:3px;
+            font-size: 8px;
+            margin-left: 5px;
+            padding:1px;
         }
 
         ._profile_picture {
