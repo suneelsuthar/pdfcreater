@@ -112,31 +112,31 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
                                 <tr>
                                     <td>Name </td>
                                     <td></td>
-                                    <td>${name}</td>
+                                    <td style="width:100px;border:2px solid black">${name}</td>
                                 </tr>
 
 
                                 <tr>
                                     <td>Roll No </td>
                                     <td></td>
-                                    <td>${rollNumber}</td>
+                                    <td style="width:100px;border:2px solid black">${rollNumber}</td>
                                 </tr>
                                
                                 <tr>
                                     <td>Cource </td>
                                     <td></td>
-                                    <td>${course}</td>
+                                    <td style="width:100px;border:2px solid black">${course}</td>
                                 </tr>
                                 <tr>
                                 <td>Authorized Sign:</td>
                                 <td></td>
-                                <td>_______________</td>
+                                <td style="width:100px;border:2px solid black">_______________</td>
                             </tr>
                             </table>
                     </td>
                     <td>
                             <img src=${url}
-                                alt="Profile Picture" style="marginn-top:15px;width:70px;height:70px;margin-left:100px;"  
+                                alt="Profile Picture" style="marginn-top:15px;width:70px;height:70px;margin-left:60px;"  
                                 />
                                 <div class="_Signature_text"> </div>
                     </td>
