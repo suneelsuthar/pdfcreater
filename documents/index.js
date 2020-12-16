@@ -29,7 +29,7 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
             width: 110px;
             height: 30px;
             margin-top: -8px;
-            margin-bottom: -10px;
+            margin-bottom: -15px;
             z-index: -10;
             position: relative;
         }
