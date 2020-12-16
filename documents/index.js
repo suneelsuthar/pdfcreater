@@ -66,7 +66,7 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
             color: purple;
             font-size: 8px;
             margin-left: 5px;
-            padding:1px;
+            padding:3px;
         }
 
         ._profile_picture {
@@ -140,7 +140,7 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
                     </td>
                     <td>
                             <img src=${url}
-                                alt="Profile Picture" style="marginn-top:15px;width:70px;height:70px;margin-left:5px;"  
+                                alt="Profile Picture" style="marginn-top:15px;width:70px;height:70px;margin-left:3px;"  
                                 />
                                 <div class="_Signature_text"> </div>
                     </td>
