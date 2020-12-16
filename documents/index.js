@@ -26,8 +26,8 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
         }
 
         ._iskillers_logo {
-            width: 130px;
-            height: 65px;
+            width: 110px;
+            height: 50px;
             margin-top: -10px;
             margin-bottom: -10px;
             z-index: -10;
@@ -130,13 +130,13 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
                                 <tr>
                                 <td>Authorized Sign:</td>
                                 <td></td>
-                                <td>_______________________</td>
+                                <td>_______________</td>
                             </tr>
                             </table>
                     </td>
                     <td>
                             <img src=${url}
-                                alt="Profile Picture" style="marginn-top:15px;width:70px;height:70px;margin-left:120px;"  
+                                alt="Profile Picture" style="marginn-top:15px;width:70px;height:70px;margin-left:100px;"  
                                 />
                                 <div class="_Signature_text"> </div>
                     </td>
