@@ -27,7 +27,7 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
 
         ._iskillers_logo {
             width: 110px;
-            height: 50px;
+            height: 30px;
             margin-top: -10px;
             margin-bottom: -10px;
             z-index: -10;
@@ -112,7 +112,7 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
                                 <tr>
                                     <td>Name </td>
                                     <td></td>
-                                    <td style="width:100px;border:2px solid black">${name}</td>
+                                    <td style="width:160px;border:2px solid black">${name}</td>
                                 </tr>
 
 
@@ -125,18 +125,18 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
                                 <tr>
                                     <td>Cource </td>
                                     <td></td>
-                                    <td style="width:100px;border:2px solid black">${course}</td>
+                                    <td style="width:160px;border:2px solid black">${course}</td>
                                 </tr>
                                 <tr>
                                 <td>Authorized Sign:</td>
                                 <td></td>
-                                <td style="width:100px;border:2px solid black">_______________</td>
+                                <td style="width:160px;border:2px solid black">_______________</td>
                             </tr>
                             </table>
                     </td>
                     <td>
                             <img src=${url}
-                                alt="Profile Picture" style="marginn-top:15px;width:70px;height:70px;margin-left:60px;"  
+                                alt="Profile Picture" style="marginn-top:15px;width:70px;height:70px;margin-left:40px;"  
                                 />
                                 <div class="_Signature_text"> </div>
                     </td>
