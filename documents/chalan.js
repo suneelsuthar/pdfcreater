@@ -174,7 +174,7 @@ return `
     <tr>
       <td style="border-right:2px dotted grey"  >
         <div class="_card">
-        <span>${sNumber+1}</span>
+        <span>S#: ${sNumber+1}</span>
           <div class="_img_wrapper">
             <img src="https://firebasestorage.googleapis.com/v0/b/admission-portal-11282.appspot.com/o/colorlogo-01.png?alt=media&token=27dd4249-7e3e-4a78-a1f7-814cb689d254" alt="" class="_logo" />
           </div>
@@ -267,7 +267,7 @@ return `
       </td>
       <td style="border-right:2px dotted grey">
         <div class="_card">
-        <span>${sNumber+1}</span>
+        <span>S#: ${sNumber+1}</span>
           <div class="_img_wrapper">
             <img src="https://firebasestorage.googleapis.com/v0/b/admission-portal-11282.appspot.com/o/colorlogo-01.png?alt=media&token=27dd4249-7e3e-4a78-a1f7-814cb689d254" alt="" class="_logo" />
           </div>
@@ -361,7 +361,7 @@ return `
       </td>
       <td>
         <div class="_card">
-        <span>${sNumber+1}</span>
+        <span>S#: ${sNumber+1}</span>
           <div class="_img_wrapper">
             <img src="https://firebasestorage.googleapis.com/v0/b/admission-portal-11282.appspot.com/o/colorlogo-01.png?alt=media&token=27dd4249-7e3e-4a78-a1f7-814cb689d254" alt="" class="_logo" />
           </div>
