@@ -28,11 +28,10 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
         ._iskillers_logo {
             width: 110px;
             height: 30px;
-            margin-top: -10px;
+            margin-top: -8px;
             margin-bottom: -10px;
             z-index: -10;
             position: relative;
-
         }
 
         ._iskillers_website_link {
