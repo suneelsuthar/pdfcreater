@@ -38,6 +38,7 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
         ._iskillers_website_link {
             background-color: purple;
             border-radius: 5px;
+            padding:10px
         }
 
         ._iskilleres_link {
@@ -55,6 +56,7 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
         table {
             font-family: arial, sans-serif;
             border-collapse: collapse;
+            margin-top:20px
         }
 
         td,
@@ -110,33 +112,33 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
                     <td>
                             <table style="margin-left: 15px;">
                                 <tr>
-                                    <td>Name </td>
+                                    <td>Name: </td>
                                     <td></td>
-                                    <td style="width:160px;border:2px solid black">${name}</td>
+                                    <td style="width:170px;">${name}</td>
                                 </tr>
 
 
                                 <tr>
-                                    <td>Roll No </td>
+                                    <td>Roll No: </td>
                                     <td></td>
-                                    <td style="width:100px;border:2px solid black">${rollNumber}</td>
+                                    <td style="width:170px;">${rollNumber}</td>
                                 </tr>
                                
                                 <tr>
-                                    <td>Cource </td>
+                                    <td>Cource: </td>
                                     <td></td>
-                                    <td style="width:160px;border:2px solid black">${course}</td>
+                                    <td style="width:170px;">${course}</td>
                                 </tr>
                                 <tr>
-                                <td>Authorized Sign:</td>
+                                <td style="width:90px;">Authorized Sign:</td>
                                 <td></td>
-                                <td style="width:160px;border:2px solid black">_______________</td>
+                                <td style="width:170px;">_______________</td>
                             </tr>
                             </table>
                     </td>
                     <td>
                             <img src=${url}
-                                alt="Profile Picture" style="marginn-top:15px;width:70px;height:70px;margin-left:40px;"  
+                                alt="Profile Picture" style="marginn-top:15px;width:70px;height:70px;margin-left:20px;"  
                                 />
                                 <div class="_Signature_text"> </div>
                     </td>
