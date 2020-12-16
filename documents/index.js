@@ -38,7 +38,8 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
         ._iskillers_website_link {
             background-color: purple;
             border-radius: 5px;
-            padding:3px
+            padding:3px;
+            margin-top:10px;
         }
 
         ._iskilleres_link {
@@ -138,7 +139,7 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
                     </td>
                     <td>
                             <img src=${url}
-                                alt="Profile Picture" style="marginn-top:15px;width:70px;height:70px;margin-left:20px;"  
+                                alt="Profile Picture" style="marginn-top:15px;width:70px;height:70px;margin-left:15px;"  
                                 />
                                 <div class="_Signature_text"> </div>
                     </td>
@@ -146,7 +147,7 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
             </table>
 
             <div class="_iskillers_website_link">
-                <p class="_iskilleres_link">www.iskillers.com</p>
+                <div class="_iskilleres_link">www.iskillers.com</div>
             </div>
         </div>
         <br />
