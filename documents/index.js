@@ -1,4 +1,4 @@
-module.exports = ({ name, fname, course, rollNumber }) => {
+module.exports = ({ name, fname, course, rollNumber,url }) => {
     const today = new Date();
     return `
 <!DOCTYPE html>
@@ -89,6 +89,10 @@ module.exports = ({ name, fname, course, rollNumber }) => {
        ._imageDiv{
         text-align:center;
        }
+       .img-responsive{
+        width: 90px;
+        height: 90px;
+       }
     </style>
 </head>
 
@@ -130,7 +134,7 @@ module.exports = ({ name, fname, course, rollNumber }) => {
                             </table>
                     </td>
                     <td>
-                            <img src="https://1.bp.blogspot.com/-8zD51KOc_Ls/XmSZZ47xsNI/AAAAAAAAPS0/m4yP8Kr7VY4c06N3cH9aLbKbuqwXqF5QQCLcBGAsYHQ/s1600/sweet%2Bdp%2Bfor%2Bwhatsapp%2Bprofile%2B%25281%2529.gif" class="_profile_picture"
+                            <img src=${url}
                                 alt="Profile Picture" style="marginn-top:10px"  />
                                 <div class="_Signature_text"> Authorized Signature</div>
                     </td>
@@ -154,7 +158,7 @@ module.exports = ({ name, fname, course, rollNumber }) => {
                             <!-- Get a Placeholder image initially, 
                        this will change according to the 
                        data entered later -->
-                            <img src="https://chart.googleapis.com/chart?cht=qr&chl=${name}&chs=160x160&chld=L|0"
+                            <img src="https://chart.googleapis.com/chart?cht=qr&chl=${rollNumber}&chs=160x160&chld=L|0"
                                 class="qr-code img-thumbnail img-responsive" id="img"/>
                             </p>
                             <div class="_Signature">        
