@@ -38,7 +38,7 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
         ._iskillers_website_link {
             background-color: purple;
             border-radius: 5px;
-            padding:10px
+            padding:3px
         }
 
         ._iskilleres_link {
@@ -56,7 +56,7 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
         table {
             font-family: arial, sans-serif;
             border-collapse: collapse;
-            margin-top:20px
+            margin-top:10px;
         }
 
         td,
