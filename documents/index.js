@@ -135,7 +135,8 @@ module.exports = ({ name, fname, course, rollNumber,url }) => {
                     </td>
                     <td>
                             <img src=${url}
-                                alt="Profile Picture" style="marginn-top:10px"  />
+                                alt="Profile Picture" style="marginn-top:10px;width:70px;height:70px;"  
+                                />
                                 <div class="_Signature_text"> Authorized Signature</div>
                     </td>
                 </tr>
