@@ -1,6 +1,6 @@
-module.exports = ({ name, fname, nic, course,fees,sNumber }) => {
-    const today = new Date();
-return `
+module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) => {
+  const today = new Date();
+  return `
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -174,7 +174,7 @@ return `
     <tr>
       <td style="border-right:2px dotted grey"  >
         <div class="_card">
-        <span>S#: ${sNumber+1}</span>
+        <span>S#: ${sNumber + 1}</span>
           <div class="_img_wrapper">
             <img src="https://firebasestorage.googleapis.com/v0/b/admission-portal-11282.appspot.com/o/colorlogo-01.png?alt=media&token=27dd4249-7e3e-4a78-a1f7-814cb689d254" alt="" class="_logo" />
           </div>
@@ -201,7 +201,7 @@ return `
             <table class="_table2">
               <tr class="_tr1">
                 <td colspan="2" class="_td2">
-                  <span>Branch: </span> 1-8 Markaz Branch Islamabad
+                  <span>Branch: </span> Mithi Branch
                 </td>
 
               </tr>
@@ -247,7 +247,7 @@ return `
 
               </td>
               <td class="_td6">
-                <span class="_amount">Five thousands only</span>
+                <span class="_amount">${amountInWords}</span>
               </td>
             </tr>
           </table>
@@ -267,7 +267,7 @@ return `
       </td>
       <td style="border-right:2px dotted grey">
         <div class="_card">
-        <span>S#: ${sNumber+1}</span>
+        <span>S#: ${sNumber + 1}</span>
           <div class="_img_wrapper">
             <img src="https://firebasestorage.googleapis.com/v0/b/admission-portal-11282.appspot.com/o/colorlogo-01.png?alt=media&token=27dd4249-7e3e-4a78-a1f7-814cb689d254" alt="" class="_logo" />
           </div>
@@ -294,7 +294,7 @@ return `
             <table class="_table2">
               <tr class="_tr1">
                 <td colspan="2" class="_td2">
-                  <span>Branch: </span> 1-8 Markaz Branch Islamabad
+                  <span>Branch: </span> Mithi Branch
                 </td>
 
               </tr>
@@ -341,7 +341,7 @@ return `
 
               </td>
               <td class="_td6">
-                <span class="_amount">Five thousands only</span>
+                <span class="_amount">${amountInWords}</span>
               </td>
             </tr>
           </table>
@@ -361,7 +361,7 @@ return `
       </td>
       <td>
         <div class="_card">
-        <span>S#: ${sNumber+1}</span>
+        <span>S#: ${sNumber + 1}</span>
           <div class="_img_wrapper">
             <img src="https://firebasestorage.googleapis.com/v0/b/admission-portal-11282.appspot.com/o/colorlogo-01.png?alt=media&token=27dd4249-7e3e-4a78-a1f7-814cb689d254" alt="" class="_logo" />
           </div>
@@ -389,7 +389,7 @@ return `
             <table class="_table2">
               <tr class="_tr1">
                 <td colspan="2" class="_td2">
-                  <span>Branch: </span> 1-8 Markaz Branch Islamabad
+                  <span>Branch: </span> Mithi Branch
                 </td>
 
               </tr>
@@ -432,12 +432,12 @@ return `
 
             <tr>
               <td class="_td5">
-                <span>Amount in words/Rs:Five </span>
+                <span>Amount in words/Rs:</span>
 
               </td>
               <td class="_td6">
                 <span class="_amount">
-                Five thousands only
+                ${amountInWords}
                 </span>
               </td>
             </tr>

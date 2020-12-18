@@ -126,7 +126,7 @@ module.exports = ({ name, fname, course, rollNumber, url }) => {
                                 </tr>
                                
                                 <tr>
-                                    <td>Cource: </td>
+                                    <td>Course: </td>
                                     <td></td>
                                     <td style="width:170px;">${course}</td>
                                 </tr>
