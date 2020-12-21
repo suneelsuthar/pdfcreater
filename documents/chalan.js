@@ -184,9 +184,8 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
             <td class="_first_tb_td">Branch Code:   1941</td>
             </tr>
             <tr>
-              <td class="_first_tb_td" colSpan="2">Date______________________________________________</td>
+              <td class="_first_tb_td" colSpan="2">Date:   _________________________________________</td>
             </tr>
-
           </table>
           <div class="_heading">DEPOSIT SLIP</div>
           <div class="bankDiv">
@@ -272,13 +271,12 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
           <p class="_slipName">Student Copy</p>
           <table class="_table1">
           <tr>
-          <td class="_first_tb_td">Bank Chalan Number:${sNumber + 1}</td>
-          <td class="_first_tb_td">Branch Code:  1941</td>
+          <td class="_first_tb_td">Bank Chalan NO:   ${sNumber + 1}</td>
+          <td class="_first_tb_td">Branch Code:   1941</td>
           </tr>
           <tr>
-            <td class="_first_tb_td" colSpan="2">Date________________________________________</td>
+            <td class="_first_tb_td" colSpan="2">Date:   _________________________________________</td>
           </tr>
-
           </table>
           <div class="_heading">DEPOSIT SLIP</div>
           <div class="bankDiv">
@@ -365,13 +363,12 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
           <p class="_slipName">Bank Copy</p>
           <table class="_table1">
           <tr>
-          <td class="_first_tb_td">Bank Chalan Number:${sNumber + 1}</td>
-          <td class="_first_tb_td">Branch Code:  1941</td>
+          <td class="_first_tb_td">Bank Chalan NO:   ${sNumber + 1}</td>
+          <td class="_first_tb_td">Branch Code:   1941</td>
           </tr>
           <tr>
-            <td class="_first_tb_td" colSpan="2">Date________________________________________</td>
+            <td class="_first_tb_td" colSpan="2">Date:   _________________________________________</td>
           </tr>
-
           </table>
           <div class="_heading">DEPOSIT SLIP</div>
           <div class="bankDiv">
