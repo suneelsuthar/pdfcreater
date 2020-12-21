@@ -174,18 +174,17 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
     <tr>
       <td style="border-right:2px dotted grey"  >
         <div class="_card">
-        <span>S#: ${sNumber + 1}</span>
           <div class="_img_wrapper">
             <img src="https://firebasestorage.googleapis.com/v0/b/admission-portal-11282.appspot.com/o/colorlogo-01.png?alt=media&token=27dd4249-7e3e-4a78-a1f7-814cb689d254" alt="" class="_logo" />
           </div>
           <p class="_slipName">Iskillers Copy</p>
           <table class="_table1">
             <tr>
-            <td class="_first_tb_td">Branch code: 1941</td>
-            <td class="_first_tb_td">Date_______________________</td>
+            <td class="_first_tb_td">Bank Chalan Number:${sNumber + 1}</td>
+            <td class="_first_tb_td">Branch Code:  1941</td>
             </tr>
             <tr>
-              <td class="_first_tb_td" colSpan="2">Branch Name_____________________________________</td>
+              <td class="_first_tb_td" colSpan="2">Date________________________________________</td>
             </tr>
 
           </table>
@@ -267,19 +266,18 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
       </td>
       <td style="border-right:2px dotted grey">
         <div class="_card">
-        <span>S#: ${sNumber + 1}</span>
           <div class="_img_wrapper">
             <img src="https://firebasestorage.googleapis.com/v0/b/admission-portal-11282.appspot.com/o/colorlogo-01.png?alt=media&token=27dd4249-7e3e-4a78-a1f7-814cb689d254" alt="" class="_logo" />
           </div>
           <p class="_slipName">Student Copy</p>
           <table class="_table1">
-            <tr>
-            <td class="_first_tb_td">Branch code: 1941</td>
-            <td class="_first_tb_td">Date_______________________</td>
-            </tr>
-            <tr>
-              <td class="_first_tb_td" colSpan="2">Branch Name_____________________________________</td>
-            </tr>
+          <tr>
+          <td class="_first_tb_td">Bank Chalan Number:${sNumber + 1}</td>
+          <td class="_first_tb_td">Branch Code:  1941</td>
+          </tr>
+          <tr>
+            <td class="_first_tb_td" colSpan="2">Date________________________________________</td>
+          </tr>
 
           </table>
           <div class="_heading">DEPOSIT SLIP</div>
@@ -361,19 +359,18 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
       </td>
       <td>
         <div class="_card">
-        <span>S#: ${sNumber + 1}</span>
           <div class="_img_wrapper">
             <img src="https://firebasestorage.googleapis.com/v0/b/admission-portal-11282.appspot.com/o/colorlogo-01.png?alt=media&token=27dd4249-7e3e-4a78-a1f7-814cb689d254" alt="" class="_logo" />
           </div>
           <p class="_slipName">Bank Copy</p>
           <table class="_table1">
-            <tr>
-              <td class="_first_tb_td">Branch code: 1941</td>
-              <td class="_first_tb_td">Date_______________________</td>
-            </tr>
-            <tr>
-              <td class="_first_tb_td" colSpan="2">Branch Name_____________________________________</td>
-            </tr>
+          <tr>
+          <td class="_first_tb_td">Bank Chalan Number:${sNumber + 1}</td>
+          <td class="_first_tb_td">Branch Code:  1941</td>
+          </tr>
+          <tr>
+            <td class="_first_tb_td" colSpan="2">Date________________________________________</td>
+          </tr>
 
           </table>
           <div class="_heading">DEPOSIT SLIP</div>
