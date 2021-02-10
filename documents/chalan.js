@@ -62,7 +62,7 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
     ._td2 {
       border: 1px solid black;
       padding: 1%;
-      font-size: 9px;
+      font-size: 8px;
     }
     
     ._banKNoteTxt {
