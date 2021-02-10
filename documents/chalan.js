@@ -124,7 +124,6 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
       font-size: 9px;
  
     }
-
     
     @media only screen and (max-width: 700px) {
       .container{
@@ -221,9 +220,11 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
               <td class="_td4" id="_fatherNameTd">Father's Name:${fname}</td>
             </tr>
             <tr>
-            <td class="_td4">CNIC/B-Form:${nic}<br />(Dealer Code)</td>
+            <td class="_td4">CNIC/B-Form:${nic}</td>
         </tr>
-
+        <tr>
+            <td class="_td4">Dealer Code:</td>
+        </tr>
             <tr>
               <td class="_td4">Course:${course}</td>
             </tr>
@@ -312,7 +313,10 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
               <td class="_td4" id="_fatherNameTd">Father's Name:${fname}</td>
             </tr>
             <tr>
-            <td class="_td4">CNIC/B-Form:${nic}<br />(Dealer Code)</td>
+            <td class="_td4">CNIC/B-Form:${nic}</td>
+        </tr>
+        <tr>
+            <td class="_td4">Dealer Code:</td>
         </tr>
             <tr>
               <td class="_td4">Course:${course}</td>
@@ -402,7 +406,10 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
               <td class="_td4" id="_fatherNameTd">Father's Name:${fname}</td>
             </tr>
             <tr>
-            <td class="_td4">CNIC/B-Form:${nic}<br />(Dealer Code)</td>
+            <td class="_td4">CNIC/B-Form:${nic}</td>
+        </tr>
+        <tr>
+            <td class="_td4">Dealer Code:</td>
         </tr>
             <tr>
               <td class="_td4">Course:${course}</td>
