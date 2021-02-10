@@ -85,7 +85,7 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
     }
     ._td4 {
       padding: 1%;
-      font-size: 12px;
+      font-size: 8px;
       border: 1px solid;
     }
     ._table4 {
