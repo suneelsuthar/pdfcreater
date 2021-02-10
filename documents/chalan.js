@@ -63,7 +63,6 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
       border: 1px solid black;
       padding: 1%;
       font-size: 9px;
-
     }
     
     ._banKNoteTxt {
@@ -125,6 +124,9 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
       font-size: 9px;
  
     }
+    #_fatherNameTd{
+      padding:5%
+    }
     
     @media only screen and (max-width: 700px) {
       .container{
@@ -180,7 +182,7 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
           <p class="_slipName">Iskillers Copy</p>
           <table class="_table1">
             <tr>
-            <td class="_first_tb_td">Bank Chalan NO:   ${sNumber + 1}</td>
+            <td class="_first_tb_td">PV# NO: ${sNumber + 1}</td>
             <td class="_first_tb_td">Branch Code:   1941</td>
             </tr>
             <tr>
@@ -204,27 +206,28 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
 
               </tr>
               <tr class="_tr1">
-                <td class="_td2"><span>A/c Title: </span>ISKILLERS</td>
-                <td class="_td2"><span>A/c NO: </span>270466645</td>
+                <td class="_td2"><span>A/c Title: </span>ISKILLERS MCA</td>
+                <td class="_td2"><span>A/c NO: </span>272760411</td>
               </tr>
             </table>
             <div class="_banKNoteTxt">
-              Note: Bank Services Charges Free Of Cost
             </div>
           </div>
           <div class="_noteDiv">
-            <span>Note: </span><span>Desired Bank Stamp is required on the deposit slip and send Orignal Depsit Slip(iskillers Copy) to Iskillers Office.</span>
           </div>
           <table border="1" class="_table3">
             <tr>
             <td class="_td4">Applicant Name:${name}</td>
             </tr>
             <tr>
-              <td class="_td4">Father's Name:${fname}</td>
+              <td class="_td4" id="_fatherNameTd">Father's Name:${fname}</td>
             </tr>
             <tr>
-              <td class="_td4">CNIC/B-Form:${nic}</td>
-            </tr>
+            <td class="_td4">CNIC/B-Form:${nic}<br />(Dealer Code)</td>
+        </tr>
+        <tr>
+            <td class="_td4">Dealer Code:</td>
+        </tr>
             <tr>
               <td class="_td4">Course:${course}</td>
             </tr>
@@ -271,7 +274,7 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
           <p class="_slipName">Student Copy</p>
           <table class="_table1">
           <tr>
-          <td class="_first_tb_td">Bank Chalan NO:   ${sNumber + 1}</td>
+          <td class="_first_tb_td">PV# NO: ${sNumber + 1}</td>
           <td class="_first_tb_td">Branch Code:   1941</td>
           </tr>
           <tr>
@@ -295,16 +298,14 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
 
               </tr>
               <tr class="_tr1">
-                <td class="_td2"><span>A/c Title: </span>ISKILLERS</td>
-                <td class="_td2"><span>A/c NO: </span>270466645</td>
+                <td class="_td2"><span>A/c Title: </span>ISKILLERS MCA</td>
+                <td class="_td2"><span>A/c NO: </span>272760411</td>
               </tr>
             </table>
             <div class="_banKNoteTxt">
-              Note: Bank Services Charges Free Of Cost
             </div>
           </div>
           <div class="_noteDiv">
-            <span>Note: </span><span>Desired Bank Stamp is required on the deposit slip and send Orignal Depsit Slip(iskillers Copy) to Iskillers Office.</span>
           </div>
           <table border="1" class="_table3">
             <tr>
@@ -312,11 +313,14 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
 
             </tr>
             <tr>
-              <td class="_td4">Father's Name:${fname}</td>
+              <td class="_td4" id="_fatherNameTd">Father's Name:${fname}</td>
             </tr>
             <tr>
-              <td class="_td4">CNIC/B-Form:${nic}</td>
-            </tr>
+            <td class="_td4">CNIC/B-Form:${nic}<br />(Dealer Code)</td>
+        </tr>
+        <tr>
+            <td class="_td4">Dealer Code:</td>
+        </tr>
             <tr>
               <td class="_td4">Course:${course}</td>
             </tr>
@@ -363,7 +367,7 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
           <p class="_slipName">Bank Copy</p>
           <table class="_table1">
           <tr>
-          <td class="_first_tb_td">Bank Chalan NO:   ${sNumber + 1}</td>
+          <td class="_first_tb_td">PV# NO: ${sNumber + 1}</td>
           <td class="_first_tb_td">Branch Code:   1941</td>
           </tr>
           <tr>
@@ -385,19 +389,16 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
                 <td colspan="2" class="_td2">
                   <span>Branch: </span> Mithi Branch
                 </td>
-
               </tr>
               <tr class="_tr1">
-                <td class="_td2"><span>A/c Title: </span>ISKILLERS</td>
-                <td class="_td2"><span>A/c NO: </span>270466645</td>
+                <td class="_td2"><span>A/c Title: </span>ISKILLERS MCA</td>
+                <td class="_td2"><span>A/c NO: </span>272760411</td>
               </tr>
             </table>
             <div class="_banKNoteTxt">
-              Note: Bank Services Charges Free Of Cost
             </div>
           </div>
           <div class="_noteDiv">
-            <span>Note: </span><span>Desired Bank Stamp is required on the deposit slip and send Orignal Depsit Slip(iskillers Copy) to Iskillers Office.</span>
           </div>
           <table border="1" class="_table3">
             <tr>
@@ -405,11 +406,14 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
 
             </tr>
             <tr>
-              <td class="_td4">Father's Name:${fname}</td>
+              <td class="_td4" id="_fatherNameTd">Father's Name:${fname}</td>
             </tr>
             <tr>
-              <td class="_td4">CNIC/B-Form:${nic}</td>
-            </tr>
+            <td class="_td4">CNIC/B-Form:${nic}<br />(Dealer Code)</td>
+        </tr>
+        <tr>
+            <td class="_td4">Dealer Code:</td>
+        </tr>
             <tr>
               <td class="_td4">Course:${course}</td>
             </tr>
