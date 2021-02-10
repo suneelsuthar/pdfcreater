@@ -124,9 +124,7 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
       font-size: 9px;
  
     }
-    #_fatherNameTd{
-      padding:5%
-    }
+
     
     @media only screen and (max-width: 700px) {
       .container{
