@@ -220,7 +220,7 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
               <td class="_td4" id="_fatherNameTd">Father's Name:${fname}</td>
             </tr>
             <tr>
-            <td class="_td4">CNIC/B-Form:${nic}</td>
+            <td class="_td4">CNIC/B-Form:${nic}<br />(Dealer Code)</td>
         </tr>
         <tr>
             <td class="_td4">Dealer Code:</td>
@@ -313,7 +313,7 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
               <td class="_td4" id="_fatherNameTd">Father's Name:${fname}</td>
             </tr>
             <tr>
-            <td class="_td4">CNIC/B-Form:${nic}</td>
+            <td class="_td4">CNIC/B-Form:${nic}<br />(Dealer Code)</td>
         </tr>
         <tr>
             <td class="_td4">Dealer Code:</td>
@@ -406,7 +406,7 @@ module.exports = ({ name, fname, nic, course, fees, sNumber, amountInWords }) =>
               <td class="_td4" id="_fatherNameTd">Father's Name:${fname}</td>
             </tr>
             <tr>
-            <td class="_td4">CNIC/B-Form:${nic}</td>
+            <td class="_td4">CNIC/B-Form:${nic}<br />(Dealer Code)</td>
         </tr>
         <tr>
             <td class="_td4">Dealer Code:</td>
